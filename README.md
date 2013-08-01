@@ -3,8 +3,6 @@
 
 Convert data urls to canvas and vice versa.
 
-[![testling badge](https://ci.testling.com/Wayla/data-url-canvas.png)](https://ci.testling.com/Wayla/data-url-canvas)
-
 ## Usage
 
 ```js
@@ -33,7 +31,7 @@ Create a canvas from the given data `url` and call `fn` with it.
 With [npm](https://npmjs.org) do:
 
 ```
-npm install modp-groups
+npm install data-url-canvas
 ```
 
 Then bundle for the browser with
