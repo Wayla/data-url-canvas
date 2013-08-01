@@ -14,6 +14,8 @@ data.toCanvas = function (url, fn) {
   var img = new Image();
   img.src = url;
   img.onload = function () {
+    canvas.width = img.width;
+    canvas.height = img.height;
     ctx.drawImage(img, 0, 0);
     fn(canvas);
   };
