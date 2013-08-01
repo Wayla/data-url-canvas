@@ -1,7 +1,7 @@
 {
   "name": "data-url-canvas",
   "description": "Convert data urls to canvas and vice versa.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/Wayla/data-url-canvas.git"
