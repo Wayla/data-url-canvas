@@ -3,6 +3,8 @@
 
 Convert data urls to canvas and vice versa.
 
+[![testling badge](https://ci.testling.com/Wayla/data-url-canvas.png)](https://ci.testling.com/Wayla/data-url-canvas)
+
 ## Usage
 
 ```js
