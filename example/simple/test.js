@@ -14,6 +14,8 @@ function urlToDataUrl (url, fn)  {
   var img = new Image();
   img.onload = function () {
     var canvas = document.createElement('canvas');
+    canvas.width = img.width;
+    canvas.height = img.height;
     var ctx = canvas.getContext('2d');
     ctx.drawImage(img, 0, 0);
     var url = canvas.toDataURL();
